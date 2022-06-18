@@ -1,0 +1,15 @@
+{
+  "name": "cypress-add-event-listener-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kaspar Emanuel <kaspar@kitspace.org>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "serve",
+    "test": "npm run serve & cypress run --headed --spec cypress/e2e/spec.cy.js"
+  },
+  "dependencies": {
+    "cypress": "^10.1.0",
+    "serve": "^13.0.2"
+  }
+}

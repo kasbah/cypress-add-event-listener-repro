@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Cypress addEventListener Repro",
+    "description": "Cypress addEventListener Repro",
+    "version": "0.0.0",
+    "permissions": ["<all_urls>"],
+    "content_scripts": [
+        {
+            "matches": ["http://localhost:*/*"],
+            "js": ["content-script.js"],
+            "run_at": "document_end"
+        }
+    ]
+}

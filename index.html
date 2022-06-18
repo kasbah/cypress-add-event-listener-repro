@@ -1,0 +1,7 @@
+<body></body>
+<script>
+      const body = document.querySelector("body");
+      window.addEventListener("message", (e) => {
+            body.innerHTML = `Got message: "${e.data}"`;
+      });
+</script>
