@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "serve": "serve",
-    "test-pw": "npm run serve & playwright test",
-    "test": "npm run serve & cypress run --headed --spec cypress/e2e/spec.cy.js"
+    "test-pw": "playwright test",
+    "test": "cypress run --headed --spec cypress/e2e/spec.cy.js"
   },
   "dependencies": {
     "@playwright/test": "^1.22.2",
